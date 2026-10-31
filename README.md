@@ -1,5 +1,7 @@
 # PNGrab
 
+![PNGrab icon](PNGrab.png)
+
 Right-click any image and save it as a PNG.
 
 ## Overview
