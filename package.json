@@ -1,0 +1,20 @@
+{
+  "name": "pngrab",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Right-click any image and save it as a PNG.",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/gen-icons.mjs && vite build",
+    "icons": "node scripts/gen-icons.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}
